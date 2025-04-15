@@ -21,7 +21,7 @@ def get_base64_image(image_path):
     return f"data:image/png;base64,{base64_str}"
 
 # Load background image
-background_image = get_base64_image(r"C:\Users\shree\Downloads\Playstore\bg.jpg")
+background_image = get_base64_image("bg.jpg")
 
 # Load CSS for modern styling and animations
 st.markdown(
